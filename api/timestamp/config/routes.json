@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/timestamps",
+      "handler": "timestamp.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/timestamps/count",
+      "handler": "timestamp.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/timestamps/:id",
+      "handler": "timestamp.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/timestamps",
+      "handler": "timestamp.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/timestamps/:id",
+      "handler": "timestamp.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/timestamps/:id",
+      "handler": "timestamp.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
