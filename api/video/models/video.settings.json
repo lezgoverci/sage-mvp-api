@@ -17,9 +17,6 @@
     "link": {
       "type": "string"
     },
-    "about": {
-      "model": "about"
-    },
     "timestamps": {
       "collection": "timestamp"
     },
@@ -28,10 +25,6 @@
     },
     "comments": {
       "collection": "comment"
-    },
-    "course": {
-      "via": "video",
-      "model": "course"
     }
   }
 }

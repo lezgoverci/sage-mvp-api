@@ -29,6 +29,9 @@ module.exports = ({ env }) => ({
         password: env("DATABASE_PASSWORD", "strapi"),
         ssl: env('DATABASE_SSL', false)
       },
+      options: {
+        useNullAsDefault: true,
+      },
     },
   },
 });
