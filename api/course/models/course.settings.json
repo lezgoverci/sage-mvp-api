@@ -33,6 +33,10 @@
     "instructor": {
       "model": "instructor",
       "via": "courses"
+    },
+    "video": {
+      "model": "video",
+      "via": "course"
     }
   }
 }

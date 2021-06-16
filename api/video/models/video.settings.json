@@ -28,6 +28,10 @@
     },
     "comments": {
       "collection": "comment"
+    },
+    "course": {
+      "via": "video",
+      "model": "course"
     }
   }
 }
