@@ -15,6 +15,9 @@ module.exports = ({ env }) => ({
           rejectUnauthorized: false,
         },
       },
+      options: {
+        useNullAsDefault: true,
+      },
     },
   },
 });
